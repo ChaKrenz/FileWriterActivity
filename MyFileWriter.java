@@ -20,8 +20,8 @@ public class MyFileWriter {
             e.printStackTrace();
         }
 
-        File repository = new File (".classified");
-        File fileName = new File(repository, "confidential.dat");
+        File directory = new File (".classified");
+        File fileName = new File(directory, "confidential.dat");
         try (Writer writer = new FileWriter(fileName)) {
             writer.write("Secret data");
         } catch (IOException e) {
