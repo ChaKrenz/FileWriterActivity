@@ -1,16 +1,16 @@
 
 import java.io.*;
-import java.nio.file.*;
-import java.nio.charset.StandardCharsets;
+// import java.nio.file.*;
+// import java.nio.charset.StandardCharsets;
 
 public class MyFileWriter {
     public static void main(String[] args) {
-        String data = "Hello, World!";
-        String fileName1 = "example.txt";
-        String fileName2 = "example2.txt";
-        String fileName3 = "example3.txt";
-        String fileName4 = "example4.txt";
-        String fileName5 = "example5.txt";
+        // String data = "Hello, World!";
+        // String fileName1 = "example.txt";
+        // String fileName2 = "example2.txt";
+        // String fileName3 = "example3.txt";
+        // String fileName4 = "example4.txt";
+        // String fileName5 = "example5.txt";
 
         //Homework for September 10
         String secretFileName = ".computerpassword.txt";
