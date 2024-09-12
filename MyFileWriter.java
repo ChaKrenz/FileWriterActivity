@@ -29,8 +29,11 @@ public class MyFileWriter {
         }
     }
 
+    //print file size prints the length of the file.
     public static void printFileSize(String fileName) {
         //implement my print filesize
+        File file = new File(fileName);
+        System.out.println("The length of the file is: " + file.length());
     }
 }
         
